@@ -2,8 +2,10 @@
 
 namespace Miaoxing\Rev;
 
+use Miaoxing\App\Service\Asset;
+
 /**
- * @property \services\Asset $asset
+ * @property Asset $asset
  */
 class Plugin extends \miaoxing\plugin\BasePlugin
 {
