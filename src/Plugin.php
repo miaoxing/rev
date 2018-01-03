@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Rev;
 
-use Miaoxing\App\Service\Asset;
+use Miaoxing\Plugin\Service\Asset;
 
 /**
  * @property Asset $asset
