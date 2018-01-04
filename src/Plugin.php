@@ -7,7 +7,7 @@ use Miaoxing\Plugin\Service\Asset;
 /**
  * @property Asset $asset
  */
-class Plugin extends \miaoxing\plugin\BasePlugin
+class Plugin extends \Miaoxing\Plugin\BasePlugin
 {
     public $name = '素材版本号';
 
