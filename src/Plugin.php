@@ -13,10 +13,10 @@ class Plugin extends \Miaoxing\Plugin\BasePlugin
 
     public $description = '将前端素材生成版本号';
 
-    public function onBeforePageScript()
+    public function onScript()
     {
         if ($this->asset->isEnableRev()) {
-            $this->view->display('@rev/rev/beforePageScript.php');
+            $this->view->display('@rev/rev/script.php');
         }
     }
 }
